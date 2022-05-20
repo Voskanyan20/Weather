@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    padding: 25px 0;
+    color: #323232;
+    font-size: 40px;
+    font-family: inherit;
+}
+.mother_div{
+    width: 500px;
+    height: 500px;
+    background-image: url('./components/cloud.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 35px 0 0 0;
+    box-shadow: 1px 0px 12px 1px;
+}
+.form_input{
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    height: 35px;
+    font-size: 16px;
+    font-family: auto;
+    margin-bottom: 10px;
+    border: 0.5px solid silver;
+    border-radius: 2px;
+}
+.search_btn{
+    width: 100px;
+    height: 40px;
+    color: grey;
+    font-size: 18px;
+    background-color: white;
+    font-family: inherit;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+.current_location_btn{
+    border: none;
+    width: 110px;
+    height: 17px;
+    margin-top: 10px;
+    color: black;
+    font-family: auto;
+    cursor: pointer;
+}
+.icon{
+    width: 80px;
+}
+.temp_h{
+    font-size: 70px;
+    color: white;
+}
+.celsius{
+    width: 85px;
+    border-radius: 20px;
+    margin: 35px 0;
+    border: 2px solid grey;
+}
+.extra{
+    color: white;
+    padding: 5px 0 0 0;
+    font-size: 18px;
+    font-family: auto;
+}
